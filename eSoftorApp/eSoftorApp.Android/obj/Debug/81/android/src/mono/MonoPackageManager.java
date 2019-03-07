@@ -107,8 +107,16 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "eSoftorApp.Android.dll" comes first in this list. */
 		"eSoftorApp.Android.dll",
+		"EngineIoClientDotNet.dll",
 		"eSoftorApp.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
+		"SocketIoClientDotNet.dll",
+		"SuperSocket.ClientEngine.dll",
+		"System.Collections.Immutable.dll",
+		"UXDivers.Gorilla.SDK.dll",
+		"UXDivers.Gorilla.SDK.Droid.dll",
+		"WebSocket4Net.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

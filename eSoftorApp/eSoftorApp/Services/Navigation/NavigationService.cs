@@ -104,7 +104,7 @@ namespace eSoftorApp.Services.Navigation
 
         private Type GetPageTypeForViewModel(Type viewModelType)
         {
-            var viewName = viewModelType.FullName.Replace("Model", string.Empty);
+            var viewName = viewModelType.FullName.Replace("ViewModels", "Views").Replace("ViewModel", string.Empty);
             var viewModelAssemblyName = viewModelType.GetTypeInfo().Assembly.FullName;
             var viewAssemblyName = string.Format(CultureInfo.InvariantCulture, "{0}, {1}", viewName, viewModelAssemblyName);
             var viewType = Type.GetType(viewAssemblyName);

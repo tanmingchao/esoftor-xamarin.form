@@ -25,6 +25,8 @@ namespace eSoftorApp.ViewModels
             //}
 
             //return base.InitializeAsync(navigationData);
+            
+
             return base.InitializeAsync(navigationData);
         }
 

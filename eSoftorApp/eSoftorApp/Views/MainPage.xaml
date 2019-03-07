@@ -1,16 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:eSoftorApp.Views"
+             xmlns:local="clr-namespace:eSoftorApp.Views;assembly=eSoftorApp"
              xmlns:viewModelBase="clr-namespace:eSoftorApp.ViewModels.Infrastructure;assembly=eSoftorApp"
-             viewModelBase:ViewModelLocator.AutoWireViewModel="true"
+            xmlns:home="clr-namespace:eSoftorApp.Views.Home"
+            xmlns:gaoxiao="clr-namespace:eSoftorApp.Views.GaoXiao"
+            viewModelBase:ViewModelLocator.AutoWireViewModel="true"
              x:Class="eSoftorApp.Views.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <TabbedPage.Title>
+        <OnPlatform x:TypeArguments="x:String">
+            <On Platform="iOS, UWP, WinRT, WinPhone" Value="eShop on Containers" />
+        </OnPlatform>
+    </TabbedPage.Title>
 
-</ContentPage>
+    <home:HomePage x:Name="HomePage" Title="主页"></home:HomePage>
+    <gaoxiao:GaoXiaoPage x:Name="GaoXiaoPage" Title="搞笑"></gaoxiao:GaoXiaoPage>
+    
+</TabbedPage>

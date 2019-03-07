@@ -15,10 +15,18 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Views\Search\" />
+    <Folder Include="Views\Mine\" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="Views\Common\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\GaoXiao\GaoXiaoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Home\HomePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -14,11 +14,19 @@ namespace eSoftorApp.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MainPage.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.ContentPage {
+    public partial class MainPage : global::Xamarin.Forms.TabbedPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::eSoftorApp.Views.Home.HomePage HomePage;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::eSoftorApp.Views.GaoXiao.GaoXiaoPage GaoXiaoPage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
+            HomePage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::eSoftorApp.Views.Home.HomePage>(this, "HomePage");
+            GaoXiaoPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::eSoftorApp.Views.GaoXiao.GaoXiaoPage>(this, "GaoXiaoPage");
         }
     }
 }

@@ -7,6 +7,8 @@
 namespace eSoftorApp.ViewModels.Infrastructure
 {
     using eSoftorApp.Services.Navigation;
+    using eSoftorApp.ViewModels.GaoXiao;
+    using eSoftorApp.ViewModels.Home;
     using System;
     using System.Globalization;
     using System.Reflection;
@@ -61,6 +63,9 @@ namespace eSoftorApp.ViewModels.Infrastructure
             //_container.Register<ISampleService, SampleService>();
             //viewModes
             _container.Register<MainPageViewModel>();
+            _container.Register<HomePageViewModel>();
+            _container.Register<GaoXiaoPageViewModel>();
+
 
             //services
             _container.Register<INavigationService, NavigationService>();
