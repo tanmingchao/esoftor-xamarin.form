@@ -3,12 +3,15 @@ E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\bin\Debu
 E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\bin\Debug\netstandard2.0\eSoftorApp.pdb
 E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\Views\Common\LoginPage.xaml.g.cs
+E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\Views\GaoXiao\GaoXiaoPage.xaml.g.cs
+E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\Views\Home\HomePage.xaml.g.cs
 E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\Views\Mine\MinePage.xaml.g.cs
+E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\Views\Search\SearchPage.xaml.g.cs
 E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\eSoftorApp.csproj.CoreCompileInputs.cache
 E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\eSoftorApp.AssemblyInfoInputs.cache
 E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\eSoftorApp.AssemblyInfo.cs
 E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\XamlC.stamp
 E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\eSoftorApp.dll
 E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\eSoftorApp.pdb
-E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\Views\GaoXiao\GaoXiaoPage.xaml.g.cs
-E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\Views\Home\HomePage.xaml.g.cs
+E:\WORKSPACE\GITHUB\eSoftor-Xamarin.Forms\eSoftor\eSoftorApp\eSoftorApp\obj\Debug\netstandard2.0\eSoftorApp.csprojAssemblyReference.cache

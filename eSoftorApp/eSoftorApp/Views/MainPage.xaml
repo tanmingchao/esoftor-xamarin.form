@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:eSoftorApp.Views;assembly=eSoftorApp"
              xmlns:viewModelBase="clr-namespace:eSoftorApp.ViewModels.Infrastructure;assembly=eSoftorApp"
             xmlns:home="clr-namespace:eSoftorApp.Views.Home"
             xmlns:gaoxiao="clr-namespace:eSoftorApp.Views.GaoXiao"
+            xmlns:search="clr-namespace:eSoftorApp.Views.Search"
+            xmlns:mine="clr-namespace:eSoftorApp.Views.Mine"
             viewModelBase:ViewModelLocator.AutoWireViewModel="true"
-             x:Class="eSoftorApp.Views.MainPage">
+            x:Class="eSoftorApp.Views.MainPage" >
 
     <TabbedPage.Title>
         <OnPlatform x:TypeArguments="x:String">
@@ -14,7 +17,33 @@
         </OnPlatform>
     </TabbedPage.Title>
 
-    <home:HomePage x:Name="HomePage" Title="主页"></home:HomePage>
-    <gaoxiao:GaoXiaoPage x:Name="GaoXiaoPage" Title="搞笑"></gaoxiao:GaoXiaoPage>
-    
+    <home:HomePage x:Name="HomePage" Title="主页" WidthRequest="10">
+        <home:HomePage.Icon>
+            <OnPlatform x:TypeArguments="FileImageSource">
+                <On Platform="IOS,Android" Value="home"></On>
+            </OnPlatform>
+        </home:HomePage.Icon>
+    </home:HomePage>
+    <gaoxiao:GaoXiaoPage x:Name="GaoXiaoPage" Title="搞笑" WidthRequest="10" >
+        <gaoxiao:GaoXiaoPage.Icon>
+            <OnPlatform x:TypeArguments="FileImageSource">
+                <On Platform="IOS,Android" Value="gaoxiao"></On>
+            </OnPlatform>
+        </gaoxiao:GaoXiaoPage.Icon>
+    </gaoxiao:GaoXiaoPage>
+    <search:SearchPage x:Name="SearchPage" Title="搜索" WidthRequest="10" >
+        <search:SearchPage.Icon>
+            <OnPlatform  x:TypeArguments="FileImageSource">
+                <On Platform="IOS,Android" Value="search"></On>
+            </OnPlatform>
+        </search:SearchPage.Icon>
+    </search:SearchPage>
+    <mine:MinePage x:Name="MinePage" Title="我的"  WidthRequest="10" >
+        <mine:MinePage.Icon>
+            <OnPlatform x:TypeArguments="FileImageSource">
+                <On Platform="IOS,Android" Value="my2"></On>
+            </OnPlatform>
+        </mine:MinePage.Icon>
+    </mine:MinePage>
+
 </TabbedPage>

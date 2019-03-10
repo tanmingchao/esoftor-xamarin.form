@@ -9,6 +9,8 @@ namespace eSoftorApp.ViewModels.Infrastructure
     using eSoftorApp.Services.Navigation;
     using eSoftorApp.ViewModels.GaoXiao;
     using eSoftorApp.ViewModels.Home;
+    using eSoftorApp.ViewModels.Mine;
+    using eSoftorApp.ViewModels.Search;
     using System;
     using System.Globalization;
     using System.Reflection;
@@ -65,7 +67,8 @@ namespace eSoftorApp.ViewModels.Infrastructure
             _container.Register<MainPageViewModel>();
             _container.Register<HomePageViewModel>();
             _container.Register<GaoXiaoPageViewModel>();
-
+            _container.Register<SearchPageViewModel>();
+            _container.Register<MinePageViewModel>();
 
             //services
             _container.Register<INavigationService, NavigationService>();

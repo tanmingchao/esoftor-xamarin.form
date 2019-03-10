@@ -1,4 +1,5 @@
-﻿using eSoftorApp.Services.Navigation;
+﻿using eSoftorApp.Models.Navigation;
+using eSoftorApp.Services.Navigation;
 using eSoftorApp.ViewModels.Infrastructure;
 using System;
 using System.Collections.Generic;
@@ -15,17 +16,14 @@ namespace eSoftorApp.ViewModels
 
         public override Task InitializeAsync(object navigationData)
         {
-            //IsBusy = true;
+            IsBusy = true;
 
-            //if (navigationData is TabParameter)
-            //{
-            //    // Change selected application tab
-            //    var tabIndex = ((TabParameter)navigationData).TabIndex;
-            //    MessagingCenter.Send(this, MessageKeys.ChangeTab, tabIndex);
-            //}
-
-            //return base.InitializeAsync(navigationData);
-            
+            if (navigationData is TabParameter)
+            {
+                // Change selected application tab
+                var tabIndex = ((TabParameter)navigationData).TabIndex;
+                MessagingCenter.Send(this, MessageKeys.ChangeTab, tabIndex);
+            }
 
             return base.InitializeAsync(navigationData);
         }
